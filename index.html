@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>declutter, de-stress</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  
+  </head>
+  <body>
+
+  <div class="bgbuttons">
+
+  <button id="white" onclick="document.body.style.backgroundColor = 'white';"></button>
+  <button id="red" onclick="document.body.style.backgroundColor = '#FE9393';"></button>
+  <button id="orange" onclick="document.body.style.backgroundColor = '#FFC69D';"></button>
+  <button id="yellow" onclick="document.body.style.backgroundColor = '#FFF9BE';"></button>
+  <button id="green" onclick="document.body.style.backgroundColor = '#DFFFD0';"></button>
+  <button id="teal" onclick="document.body.style.backgroundColor = '#C5FBFF';"></button>
+  <button id="blue" onclick="document.body.style.backgroundColor = '#C3D8FF';"></button>
+  <button id="lilac" onclick="document.body.style.backgroundColor = '#E9CCFF';"></button>
+
+
+
+  </div>
+
+   <section class="intro-block">
+      <h1>drag and organize!</h1>
+    </section>
+
+<div class="choicebuttons">
+
+   <button id="astromical" src="index.html">astronomical symbols </button>
+  <button id="emoji" src="emoji.html">emojis</button>
+
+  </div>
+
+  
+
+<div id="dropZone">
+  <div
+    id="dropBox1"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+   <img
+    id="blackcirclebg"
+    src="sunring.png"/>
+
+  </div>
+  <div
+    id="dropBox2"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="sunfacebg"
+    src="sunface.png"/>
+
+  </div>
+  <div
+    id="dropBox3"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="leftmoonbg"
+    src="leftmooncopy.png"/>
+  </div>
+  <div
+    id="dropBox4"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="shootingbg"
+    src="shootingcopy.png"/>
+
+
+  </div>
+
+</div>
+
+  </div>
+
+<div id="dropZone2">
+  <div
+    id="dropBox5"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+   <img
+    id="angrymoonleftbg"
+    src="angrymoonleft.png"/>
+
+  </div>
+  <div
+    id="dropBox6"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="angryrightmoonbg"
+    src="angryrightmoon.png"/>
+
+  </div>
+  <div
+    id="dropBox7"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="blackcirclebg"
+    src="blackcirclecopy.png"/>
+  </div>
+  <div
+    id="dropBox8"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="emptycirclebg"
+    src="emptycircle.png"/>
+  </div>
+
+   </div>
+
+
+
+  <div id="dropZone3">
+   <div
+    id="dropBox9"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="sunangryfacebg"
+    src="sunangryface.png"/>
+  </div>
+
+  </div>
+  <div
+    id="dropBox10"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="rightmoonplainbg"
+    src="rightmoonplainn.png"/>
+
+  </div>
+  <div
+    id="dropBox11"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <img
+    id="angryblackmoonbg"
+    src="angryblackmoon.png"/>
+  </div>
+  
+
+<div
+  id="symbols"
+  
+>
+  <img
+    id="sunface"
+    src="sunface.png"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+<img
+    id="shooting"
+    src="shootingcopy.png"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+<img
+    id="sunring"
+    src="sunring.png"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+<img
+    id="leftmoon"
+    src="leftmooncopy.png"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+</div>
+
+<div
+  id="symbols2"
+  
+>
+  <img
+    id="emptycircle"
+    src="emptycircle.png"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+<img
+    id="blackcircle"
+    src="blackcirclecopy.png"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+<img
+    id="angryrightmoon"
+    src="angryrightmoon.png"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+<img
+    id="angrymoonleft"
+    src="angrymoonleft.png"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+</div>
+
+</div>
+
+ 
+
+
+    <script src="script.js">
+      
+
+    </script>
+  </body>
+</html>
