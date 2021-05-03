@@ -291,7 +291,7 @@ opacity:0.3;
   justify-content: space-between;
   min-height: 200px;
   margin-bottom: 20px;
-  pointer-events:none;
+  
 }
 #dropBox1,
 #dropBox2,
@@ -314,7 +314,7 @@ opacity:0.3;
   justify-content: space-between;
   min-height: 200px;
   margin-bottom: 20px;
-  pointer-events:none;
+  
   
 
 }
@@ -338,7 +338,7 @@ opacity:0.3;
   justify-content: space-between;
   min-height: 200px;
   margin-bottom: 1px;
-  pointer-events:none;
+  
   
 
 }
@@ -401,6 +401,6 @@ pointer-events:all;
 }
 
 .fixed {
-pointer-events:none;
+
 }
 
