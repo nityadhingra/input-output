@@ -211,7 +211,7 @@ position:relative;
 
 
 .bgbuttons {
-position:absolute;
+position:fixed;
 left:20px;
 top:660px;
 }
@@ -291,6 +291,7 @@ opacity:0.3;
   justify-content: space-between;
   min-height: 200px;
   margin-bottom: 20px;
+  pointer-events:none;
 }
 #dropBox1,
 #dropBox2,
@@ -313,6 +314,7 @@ opacity:0.3;
   justify-content: space-between;
   min-height: 200px;
   margin-bottom: 20px;
+  pointer-events:none;
   
 
 }
@@ -336,6 +338,7 @@ opacity:0.3;
   justify-content: space-between;
   min-height: 200px;
   margin-bottom: 1px;
+  pointer-events:none;
   
 
 }
@@ -345,6 +348,8 @@ opacity:0.3;
 #dropBox12 {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   height: 40px;
   width: 100px;
   padding: 10rem;
@@ -352,38 +357,50 @@ opacity:0.3;
 }
 
 #sunface {
-padding:100px;
+pointer-events:all;
 }
 
 #leftmoon {
-padding:50px;
+pointer-events:all;
 }
 
 #sunring {
-padding:40px;
+pointer-events:all;
 }
 
 #shooting {
-padding:10px;
+pointer-events:all;
 }
 
 #angrymoonleft {
-padding:60px;
+pointer-events:all;
 
 }
 
 #angryrightmoon {
-padding:50px;
+pointer-events:all;
 
 }
 
 #blackcircle {
-padding:40px;
+pointer-events:all;
 
 }
 
 #emptycircle {
-padding:70px;
+pointer-events:all;
 
+}
+
+.draggable {
+position:fixed;
+width:100vw;
+height:100vw;
+top:0px;
+pointer-events:all;
+}
+
+.fixed {
+pointer-events:none;
 }
 

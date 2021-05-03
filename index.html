@@ -38,15 +38,18 @@
 
   
 
-<div id="dropZone">
+<div class="fixed"
+id="dropZone">
   <div
     id="dropBox1"
     ondrop="drop(event)"
     ondragover="allowDrop(event)"
+    class="dropbox"
   >
    <img
     id="blackcirclebg"
     src="sunring.png"/>
+   
 
   </div>
   <div
@@ -154,6 +157,7 @@
     id="dropBox11"
     ondrop="drop(event)"
     ondragover="allowDrop(event)"
+    class="dropbox" 
   >
     <img
     id="angryblackmoonbg"
@@ -161,7 +165,7 @@
   </div>
   
 
-<div
+<div class="draggable"
   id="symbols"
   
 >
@@ -193,12 +197,7 @@
     ondragstart="drag(event)"
     width="300"
   />
-</div>
 
-<div
-  id="symbols2"
-  
->
   <img
     id="emptycircle"
     src="emptycircle.png"
