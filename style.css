@@ -1,115 +1,441 @@
-html, body {
-	overflow-x: hidden;
+body {
+background-color: white;
+
 }
 
-body {
-	background-color: white;
+#white {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background:white;
+border:0px;
+
+
+
 }
+
+
+#red {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background:#FE9393;
+border:0px;
+
+
+	
+}
+
+
+#orange {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background:#FFC69D;
+border:0px;
+
+
+	
+}
+
+
+#yellow {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background:#FFF9BE;
+border:0px;
+
+
+	
+}
+
+
+#green {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background:#DFFFD0;
+border:0px;
+
+
+	
+}
+
+
+#teal {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background:#C5FBFF;
+border:0px;
+
+
+	
+}
+
+
+#blue {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background:#C3D8FF;
+border:0px;
+
+
+	
+}
+
+
+#lilac {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background:#E9CCFF;
+border:0px;
+
+
+	
+}
+
 
 img {
-	width: 60px;
+height: 60px;
+  object-fit: cover;
+  width: 60px;
+
 }
 
-[draggable] {
-	cursor: grab;
+#sunring {
+position:relative;
+
+
+
 }
 
-[draggable]:active {
-	cursor: grabbing;
+#dropBox1 img{
+position:absolute;
 }
 
-.choicebuttons > .pill-button + .pill-button {
-	margin-left: 1rem;
+#dropBox1 {
+position:relative;
 }
 
-.pill-button {
-	color: inherit;
-	text-decoration: none;
-	padding: 0.64rem;
-	background-color: rgba(0, 0, 0, 0.08);
-	border-radius: 24px;
+#dropBox2 img{
+position:absolute;
 }
 
-.pill-button:hover {
-	background-color: rgba(0, 0, 0, 0.12);
+#dropBox2 {
+position:relative;
 }
 
-.pill-button:active {
-	background-color: rgba(0, 0, 0, 0.16);
+#dropBox3 img{
+position:absolute;
 }
 
-.dropbox {
-	display: flex;
-	justify-content: center;
+#dropBox3 {
+position:relative;
 }
 
-.symbols {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	margin-top: 16rem;
+#dropBox4 img{
+position:absolute;
 }
 
-.dropzone {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+#dropBox4 {
+position:relative;
 }
 
-.dropbox {
-	width: 100%;
-	opacity: 0.3;
+#dropBox5 img{
+position:absolute;
 }
 
-.dropbox img {
-	padding: 24px;
+#dropBox5 {
+position:relative;
 }
+
+#dropBox6 img{
+position:absolute;
+}
+
+#dropBox6 {
+position:relative;
+}
+
+#dropBox7 img{
+position:absolute;
+}
+
+#dropBox7 {
+position:relative;
+}
+
+#dropBox8 img{
+position:absolute;
+}
+
+#dropBox8 {
+position:relative;
+}
+
+#dropBox9 img{
+position:absolute;
+}
+
+#dropBox9 {
+position:relative;
+}
+
+#dropBox10 img{
+position:absolute;
+}
+
+#dropBox10 {
+position:relative;
+}
+#dropBox11 img{
+position:absolute;
+}
+
+#dropBox11 {
+position:relative;
+}
+#dropBox12 img,
+#dropBox13 img,
+#dropBox14 img,
+#dropBox15 img,
+#dropBox16 img{
+position:absolute;
+}
+
+#dropBox12,
+#dropBox13,
+#dropBox14,
+#dropBox15,
+#dropBox16 {
+position:relative;
+}
+
+
+
 
 .bgbuttons {
-	position: fixed;
-	bottom: 2rem;
-	left: 2rem;
+position:fixed;
+left:20px;
+top:660px;
 }
 
-.bgbuttons button {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	border: 0;
-	cursor: pointer;
+.symbolbuttons {
+position:absolute;
+left:1130px;
+top:40px;
 }
 
-.bgbuttons button:focus {
-	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.8);
+
+#symbols {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: 0px;
+  width: 0px;
+  padding: 16rem;
+  margin:300px;
+
+
 }
 
-button.white {
-	background-color: #fff;
+
+#symbols2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: 0px;
+  width: 90px;
+  padding: 16rem;
+ 
+
+}
+#blackcirclebg {
+opacity:0.3;
+
 }
 
-button.red {
-	background-color: #FE9393;
+#sunfacebg {
+opacity:0.3;
+
 }
 
-button.orange {
-	background-color: #FFC69D;
+#leftmoonbg {
+opacity:0.3;
+
 }
 
-button.yellow {
-	background-color: #FFF9BE;
+#shootingbg {
+opacity:0.3;
+
 }
 
-button.green {
-	background-color: #DFFFD0;
+#angrymoonleftbg {
+opacity:0.3;
+
 }
 
-button.teal {
-	background-color: #C5FBFF;
+#angryrightmoonbg {
+opacity:0.3;
+
 }
 
-button.blue {
-	background-color: #C3D8FF;
+#blackcirclebg {
+opacity:0.3;
+
 }
 
-button.lilac {
-	background-color: #E9CCFF;
+#emptycirclebg {
+opacity:0.3;
+
 }
+
+#dropZone {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  min-height: 200px;
+  margin-bottom: 20px;
+  
+}
+#dropBox1,
+#dropBox2,
+#dropBox3,
+#dropBox4 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100px;
+  padding: 1rem;
+}
+
+
+#dropZone2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  min-height: 200px;
+  margin-bottom: 20px;
+  
+  
+
+}
+#dropBox5,
+#dropBox6,
+#dropBox7,
+#dropBox8 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  padding: 1rem;
+  
+}
+
+#dropZone3 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  min-height: 200px;
+  margin-bottom: 1px;
+  
+  
+
+}
+#dropBox9,
+#dropBox10,
+#dropBox11,
+#dropBox12 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  padding: 10rem;
+  opacity:0.3;
+  
+}
+
+#dropZone4 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  min-height: 200px;
+  margin-bottom: 1px;
+  
+  
+
+}
+#dropBox13,
+#dropBox14,
+#dropBox15,
+#dropBox16 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  padding: 1rem;
+
+  
+}
+
+#sunface {
+pointer-events:all;
+}
+
+#leftmoon {
+pointer-events:all;
+}
+
+#sunring {
+pointer-events:all;
+}
+
+#shooting {
+pointer-events:all;
+}
+
+#angrymoonleft {
+pointer-events:all;
+
+}
+
+#angryrightmoon {
+pointer-events:all;
+
+}
+
+#blackcircle {
+pointer-events:all;
+
+}
+
+#emptycircle {
+pointer-events:all;
+
+}
+
+.draggable {
+position:fixed;
+width:100vw;
+height:100vw;
+top:0px;
+pointer-events:all;
+}
+
+.fixed {
+pointer-events:none;
+
+}
+
